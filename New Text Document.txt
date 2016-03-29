@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+
+{
+    int a;
+
+    printf("\n\n\t\t Enter Number: ");
+    scanf("%d",&a);
+
+    if(a>=75 && a<=79)
+    {
+        printf("\n\n\t\t A....");
+    }

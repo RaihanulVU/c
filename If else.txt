@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main()
+{
+
+    int a,b,c;
+
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+
+    if(a>b && a>c)
+    {
+        printf("The Result id %d: ",a);
+    }
+
+    else   if(c>b && c>a)
+    {
+        printf("The Result id %d: ",c);
+    }
+
+     else   if(b>a && b>c)
+    {
+        printf("The Result id %d: ",b);
+    }
+
+}
